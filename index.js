@@ -68,4 +68,4 @@ client.connect(err => {
 });
 
 
-app.listen(5000, () => console.log('Server running'))
+app.listen( process.env.PORT || 5000)
